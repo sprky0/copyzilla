@@ -21,6 +21,111 @@
 					<true/>
 					<key>Types</key>
 					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}
+	--defend against no dropped files	if input is {} then error number -128 -- 'No files passed'	return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>F5D54296-58EE-47AE-BEC0-C1B60869B2F5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>1D0A9CAA-C2EC-41D7-8176-CA7306A0ADD8</string>
+				<key>UUID</key>
+				<string>EB7291D9-5037-426E-BDBC-0955112A7635</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>649.500000:722.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
 						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
@@ -167,7 +272,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.500000:722.000000</string>
+				<string>649.500000:409.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -358,7 +463,7 @@ for item in targetlist:
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.500000:567.000000</string>
+				<string>649.500000:254.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -368,7 +473,14 @@ for item in targetlist:
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1E80F0DF-E3B9-44EE-B2CB-4958162E8B44</key>
+		<key>2E920106-7ECC-450A-AE7C-41A2DC68FDAC</key>
+		<dict>
+			<key>from</key>
+			<string>EB7291D9-5037-426E-BDBC-0955112A7635 - EB7291D9-5037-426E-BDBC-0955112A7635</string>
+			<key>to</key>
+			<string>F0B1344D-5D70-4B78-BC76-29AC673DB235 - F0B1344D-5D70-4B78-BC76-29AC673DB235</string>
+		</dict>
+		<key>7F53C5D7-0F2D-44FF-92F0-CAF3018F0B17</key>
 		<dict>
 			<key>from</key>
 			<string>F0B1344D-5D70-4B78-BC76-29AC673DB235 - F0B1344D-5D70-4B78-BC76-29AC673DB235</string>
