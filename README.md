@@ -1,4 +1,4 @@
-Copyzilla
+Copyzilla v0.1
 ============================
 
 [Download latest release](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.tar.gz)
@@ -13,4 +13,4 @@ Basic Usage
 Credit
 -------
 
-Icon created by [Download release build](http://www.iconarchive.com/show/workspace-icons-by-artdesigner.html)
+[Icon](http://www.iconarchive.com/show/workspace-icons-by-artdesigner.html) created by [ArtDesigner.lv Tanya](http://artdesigner.lv)
