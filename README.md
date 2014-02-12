@@ -3,7 +3,7 @@ Copyzilla
 
 Download latest release:
 
-* [zip](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.zip)
+* [zip](https://github.com/sprky0/copyzilla/raw/master/dist/copyzilla.zip)
 
 Basic Usage
 --------
