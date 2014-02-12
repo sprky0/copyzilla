@@ -4,7 +4,6 @@ Copyzilla
 Download latest release:
 
 * [zip](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.zip)
-* [tar/gz](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.tgz)
 
 Basic Usage
 --------
