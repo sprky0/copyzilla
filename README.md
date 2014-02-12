@@ -1,7 +1,10 @@
 Copyzilla
 ============================
 
-[Download latest release](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.tar.gz)
+Download latest release:
+
+* [zip](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.zip)
+* [tar/gz](https://github.com/sprky0/copyzilla/blob/master/dist/copyzilla.tar.gz)
 
 Basic Usage
 --------
