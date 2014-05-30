@@ -51,8 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}
-	--defend against no dropped files	if input is {} then error number -128 -- 'No files passed'	return inputend run</string>
+					<string>on run {input, parameters}	--defend against no dropped files	if input is {} then error number -128 -- 'No files passed'	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -103,8 +102,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -348,7 +345,7 @@ for item in targetlist:
 	target_full = os.path.normpath(target + item)
 	target_dir = os.path.dirname(target_full);
 	subprocess.check_output(['mkdir', '-p', target_dir]);
-	subprocess.check_output(['cp', '-Rf', item, target_full]);</string>
+	subprocess.check_output(['rsync', '-a', item, target_full]);</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -473,14 +470,14 @@ for item in targetlist:
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2E920106-7ECC-450A-AE7C-41A2DC68FDAC</key>
+		<key>6470A33C-B020-4261-8CEC-676F7F606004</key>
 		<dict>
 			<key>from</key>
 			<string>EB7291D9-5037-426E-BDBC-0955112A7635 - EB7291D9-5037-426E-BDBC-0955112A7635</string>
 			<key>to</key>
 			<string>F0B1344D-5D70-4B78-BC76-29AC673DB235 - F0B1344D-5D70-4B78-BC76-29AC673DB235</string>
 		</dict>
-		<key>7F53C5D7-0F2D-44FF-92F0-CAF3018F0B17</key>
+		<key>6D41B746-7D35-449E-A93B-897940A4227B</key>
 		<dict>
 			<key>from</key>
 			<string>F0B1344D-5D70-4B78-BC76-29AC673DB235 - F0B1344D-5D70-4B78-BC76-29AC673DB235</string>

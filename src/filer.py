@@ -18,4 +18,5 @@ for item in targetlist:
 	target_full = os.path.normpath(target + item)
 	target_dir = os.path.dirname(target_full);
 	subprocess.check_output(['mkdir', '-p', target_dir]);
-	subprocess.check_output(['cp', '-Rf', item, target_full]);
+	# subprocess.check_output(['cp', '-Rf', item, target_full]);
+	subprocess.check_output(['rsync', '-a', item, target_full]);

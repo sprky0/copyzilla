@@ -15,8 +15,10 @@ Basic Usage
 Version History
 -------
 
-**0.1.0** (February 11, 2014)
+**0.2.0** (May 30, 2014)
+* Internal use of cp is replaced with rsync to alleviate network drive performance issues
 
+**0.1.0** (February 11, 2014)
 * Initial release for review
 
 Credit
